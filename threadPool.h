@@ -5,7 +5,7 @@
 #include <queue>
 
 // Thread pool with a specified number of threads
-class ThreadPool
+class [[nodiscard]] ThreadPool
 {
 public:
     ThreadPool(const size_t numThreads)
